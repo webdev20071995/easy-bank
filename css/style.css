@@ -1,4 +1,11 @@
 
+/* ROOT */
+:root{
+    --title-color: #2D314D;
+    --text-color: #9597A5;
+    --button-gradient: background:linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+    --active-color: #30C88F;
+}
 
 /* FON-FACE */
 @font-face {
@@ -41,13 +48,6 @@
 }
 
 
-/* ROOT */
-:root{
-    --title-color: #2D314D;
-    --text-color: #9597A5;
-    --button-gradient: background:linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
-    --active-color: #30C88F;
-}
 
 
 /* GLOBAL */
@@ -125,7 +125,7 @@ html {
 .site-header__list {
     text-align: center;
     padding: 0;
-    margin-bottom: 50px;
+    margin: 0;
     margin-right: 255px;
     display: flex;
     list-style: none;
@@ -178,19 +178,16 @@ html {
 /* SITE-HEADER */
 .site-header {
     background-color: #fff;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    width: 1440px;
-    height: 85px;
+    padding-top: 18px;
+    padding-bottom: 11px;
 }
 
 .site-header-container {
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 .site-header__logo {
-    margin-top: 10px;
     margin-right: auto;
 }
 
@@ -204,11 +201,10 @@ html {
 .hero {
     padding-top: 250px;
     padding-bottom: 263px;
-    background-image: url(../img/hero-bg-desktop\ \(1\).svg);
+    background-image: url(/img/hero-bg-desktop\ \(1\).svg);
     background-repeat: no-repeat;
     object-fit: none;
     display: flex;
-    /* margin-left: 200px; */
     background-position: calc(100% + 100px) -100px;
 }
 
@@ -348,6 +344,7 @@ html {
 .articles__list {
     list-style: none;
     display: flex;
+    margin-bottom: 80px;    
 }
 
 .articles__item {
@@ -355,7 +352,7 @@ html {
     height: 395px;
     border-radius: 5px;
     background-color: #fff;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .articles__item:not(:last-child){
@@ -397,4 +394,39 @@ html {
     height: 120px;
 }
 
+/* FOOTER */
+.site-footer {
+    max-width: 1440px;
+    height: 191px;
+}
+
+.site-footer__logo {
+    width: 139px;
+    height: 20px;
+}
+
+.logo {
+}
+.logo__img {
+}
+.site-footer__sitenav {
+}
+.sitenav {
+}
+.site-footer__list {
+}
+.sitenav__item {
+}
+.sitenav__link {
+}
+.socials {
+}
+.socials__link {
+}
+.socials__img {
+}
+.button {
+}
+.footer__text {
+}
 
