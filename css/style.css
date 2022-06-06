@@ -1,3 +1,34 @@
+
+
+/* FON-FACE */
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Regular.woff2') format('woff2'),
+        url('PublicSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Medium.woff2') format('woff2'),
+        url('PublicSans-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Public Sans';
+    src: url('PublicSans-Thin.woff2') format('woff2'),
+        url('PublicSans-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 *,
 *::before,
 *::after {
@@ -32,7 +63,7 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Rubik", "Arial", sans-serif;
+    font-family: "Public Sans", "Arial" , sans-serif;
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.15px;
@@ -69,6 +100,8 @@ html {
 
 /* LOGO */
 .logo {
+    width: 139px;
+    height: 20px;
     display: block;
     text-decoration: none;
 }
@@ -157,6 +190,7 @@ html {
 }
 
 .site-header__logo {
+    margin-top: 10px;
     margin-right: auto;
 }
 
@@ -170,11 +204,12 @@ html {
 .hero {
     padding-top: 250px;
     padding-bottom: 263px;
-    background-image: url(/img/hero-bg-desktop.svg);
+    background-image: url(../img/hero-bg-desktop\ \(1\).svg);
     background-repeat: no-repeat;
     object-fit: none;
     display: flex;
-    background-position: calc(70% + 600px) -200px;
+    /* margin-left: 200px; */
+    background-position: calc(100% + 100px) -100px;
 }
 
 .hero__container {
@@ -191,7 +226,7 @@ html {
 
 .hero__img {
     object-fit: none;    
-    margin-top: -300px;
+    margin-top: -250px;
     display: flex;
     width: 729px;
     height: 900px;
