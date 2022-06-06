@@ -19,11 +19,11 @@
 
             <div class="site-header__sitenav sitenav">
                 <ul class="site-header__list">
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Home</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">About</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Contact</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Blog</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Careers</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Home</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">About</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Contact</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Blog</a></li>
+                    <li class="sitenav__item"><a class="sitenav__link" href="#">Careers</a></li>
                 </ul>
             </div>
                 <!-- BUTTON -->
@@ -43,11 +43,12 @@
                 <p class="hero__text">Take your financial life online. Your Easybank account will be a one-stop-shop for spending, saving, budgeting, investing, and much more.</p>
                 <div class="button">Request Invite</div>
             </div>
-            <img class="hero__img" src="img/hero-phones-desktop (3).svg" alt="smartfonlar" width="728" height="900">
+            <img class="hero__img" src="img/tel.png" alt="smartfonlar" width="728" height="900" srcset="img/tel.png 1x, img/tel@2x.png 2x">
         </div>
     </div>
 
         <!-- QUESTION -->
+        <div class="inner">
         <div class="container">
     <div class="question">
         <h3 class="question__title">Why choose Easybank?</h3>
@@ -86,6 +87,7 @@
             </ul>
         </div>
     </section>
+</div>
         
 
     <!-- LATEST-ARTICLES -->
@@ -96,8 +98,8 @@
                 <li class="articles__item">
                     <img class="articles__img" src="img/dolors.svg" alt="online banking img" width="255" height="200"> <br>
                     <div class="articles__inner">
-                    <span class="articles__small-text">By Claire Robinson</span>
-                    <a class="articles__link" href="#"><h3 class="articles__title">Receive money in any currency with no fees</h3> </a> 
+                    <span class="articles__small-text">By Claire Robinson</span><br>
+                    <a class="articles__link" href="#">Receive money in any currency with no fees</a> 
                     <p class="articles__text">The world is getting smaller and we're becoming more mobile. So why should you be forced to only receive money in a single …</p>
                     </div>
                 </li>
@@ -105,8 +107,8 @@
                 <li class="articles__item">
                     <img class="articles__img" src="img/eat.svg" alt="simple budgetng" width="255" height="200"> <br>
                     <div class="articles__inner">
-                    <span class="articles__small-text">By Claire Robinson</span>
-                    <a class="articles__link" href="#"><h3 class="articles__title">Simple Budgeting</h3></a>
+                    <span class="articles__small-text">By Claire Robinson</span><br>
+                    <a class="articles__link" href="#">Treat yourself without worrying about money</a>
                     <p class="articles__text">Our simple budgeting feature allows you to separate out your spending and set realistic limits each month. That means you …</p>
                 </div>
                 </li>
@@ -114,8 +116,8 @@
                 <li class="articles__item">
                     <img class="articles__img" src="img/pilot.svg" alt="fast-unboarding" width="255" height="200"> <br>
                     <div class="articles__inner">
-                    <span class="articles__small-text">By Wilson Hutton</span>
-                    <a class="articles__link" href="#"><h3 class="articles__title">Take your Easybank card wherever you go</h3></a>
+                    <span class="articles__small-text">By Wilson Hutton</span> <br>
+                    <a class="articles__link" href="#">Take your Easybank card wherever you go</a>
                     <p class="articles__text">We want you to enjoy your travels. This is why we don't charge any fees on purchases while you're abroad. We'll even show you …</p>
                 </div>
                 </li>
@@ -123,8 +125,8 @@
                 <li class="articles__item">
                     <img class="articles__img" src="img/birthday.svg" alt="open api" width="255" height="200"> <br>
                     <div class="articles__inner">
-                    <span class="articles__small-text">By Claire Robinson</span>
-                    <a class="articles__link" href="#"><h3 class="articles__title">Our invite-only Beta accounts are now live!</h3></a>
+                    <span class="articles__small-text">By Claire Robinson</span> <br>
+                    <a class="articles__link" href="#">Our invite-only Beta accounts are now live!</a>
                     <p class="articles__text">After a lot of hard work by the whole team, we're excited to launch our closed beta. It's easy to request an invite through the site ...</p>
                     </div>
                 </li>
@@ -136,33 +138,41 @@
 
     <!-- FOOTER -->
     <div class="site-footer">
-        <div class="container">
+        <div class="container site-footer-container">
             <a class="site-footer__logo logo" href="index.html">
-                <img class="logo__img" src="img/logo-white (1).svg" alt="easybank">
+                <img class="logo__img" src="img/logo-white.svg" alt="easybank">
             </a>
 
             <!-- SITENAV -->
-            <div class="site-footer__sitenav sitenav">
+            <div class="site-footer__sitenav footer-sitenav">
                 <ul class="site-footer__list">
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Home</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">About</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Contact</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Blog</a></li>
-                    <li class="sitenav__item"><a class="sitenav__link" sitenav__link  href="#">Careers</a></li>
+                    <div class="box">
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">About Us</a></li>
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">Contact</a></li>
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">Blog</a></li>
+                    </div>
+                    <div class="box">
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">Careers</a></li>
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">Support</a></li>
+                    <li class="footer-sitenav__item"><a class="footer-sitenav__link" href="#">Privacy Policy</a></li>
+                    </div>
                 </ul>
             </div>
+
             <!-- SOCIALS -->
             <section class="socials">
-                <a class="socials__link" href="#"><img class="socials__img" src="/img/facebook.svg" alt="facebook"></a>
-                <a class="socials__link" href="#"><img class="socials__img" src="img/youtube.svg" alt="youtube"></a>
-                <a class="socials__link" href="#"><img class="socials__img" src="img/twitter.svg" alt="twitter"></a>
-                <a class="socials__link" href="#"><img class="socials__img" src="img/pinterest.svg" alt="pinterest"></a>
-                <a class="socials__link" href="#"><img class="socials__img" src="img/instagram.svg" alt="instagram"></a>
+                <a class="socials__link" href="https://www.facebook.com/"><img class="socials__img" src="/img/facebook.svg" alt="facebook" width="20" height="20"></a>
+                <a class="socials__link" href="#"><img class="socials__img" src="img/youtube.svg" alt="youtube" width="20" height="20"></a>
+                <a class="socials__link" href="#"><img class="socials__img" src="img/twitter.svg" alt="twitter" width="20" height="20"></a>
+                <a class="socials__link" href="#"><img class="socials__img" src="img/pinterest.svg" alt="pinterest" width="20" height="20"></a>
+                <a class="socials__link" href="#"><img class="socials__img" src="img/instagram.svg" alt="instagram" width="20" height="20"></a>
             </section>
 
             <!-- BUTTON -->
-            <div class="button">Request Invite</div>
+            <div class="footer__right">
+                <div class="button">Request Invite</div>
             <p class="footer__text">© Easybank. All Rights Reserved</p>
+            </div>
         </div>
     </div>
 
