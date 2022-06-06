@@ -15,7 +15,7 @@
     --title-color: #2D314D;
     --text-color: #9597A5;
     --button-gradient: background:linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
-    --active-color:rgb(14, 172, 14);
+    --active-color: #30C88F;
 }
 
 
@@ -36,7 +36,7 @@ html {
     font-size: 16px;
     line-height: 36px;
     letter-spacing: 0.15px;
-    background-color: #f2f2f2;
+    background-color: #fff;
     color: var(--text-color);
     overflow-x: hidden;
 }
@@ -170,12 +170,16 @@ html {
 .hero {
     padding-top: 250px;
     padding-bottom: 263px;
+    background-image: url(/img/hero-bg-desktop.svg);
+    background-repeat: no-repeat;
+    object-fit: none;
+    display: flex;
+    background-position: calc(70% + 600px) -200px;
 }
 
 .hero__container {
     display: flex;
     align-items: flex-start;
-    /* background-position: calc(100% + 200px) 300px; */
 }
 
 .hero__content {
@@ -186,11 +190,11 @@ html {
 }
 
 .hero__img {
+    object-fit: none;    
+    margin-top: -300px;
+    display: flex;
     width: 729px;
     height: 900px;
-    background-image: url(/img/hero-bg-desktop.svg);
-    background-repeat: no-repeat;
-    object-fit: contain;
 }
 
 .hero__tite {
@@ -283,9 +287,11 @@ html {
 
 /* ARTICLES */
 .articles {
-    width: 1110px;
-    height: 499px;
+    width: 100%;
+    max-width: 1440px;
+    height: 2269px;
     margin-top: 80px;
+    margin-bottom: 80px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -310,10 +316,11 @@ html {
 }
 
 .articles__item {
-    /* width: 255px; */
-    /* height: 395px; */
+    width: 255px;
+    height: 395px;
     border-radius: 5px;
     background-color: #fff;
+    padding-bottom: 30px;
 }
 
 .articles__item:not(:last-child){
@@ -323,7 +330,7 @@ html {
 .articles__img {
     width: 255px;
     height: 200px;
-    /* border-radius: 5px 5px 0px 0px; */
+    border-radius: 5px 5px 0px 0px;
 }
 
 .articles__small-text {
@@ -339,10 +346,20 @@ html {
     line-height: 20px;
     font-weight: 100;
     letter-spacing: -0.29px;
+    color: var(--title-color);
 }
 
 .articles__text {
     font-size: 13px;
     line-height: 18px;
     letter-spacing: -0.2px;
+    margin-bottom: 50px;
 }
+
+.articles__inner{
+    margin: 24px;
+    width: 207px;
+    height: 120px;
+}
+
+
